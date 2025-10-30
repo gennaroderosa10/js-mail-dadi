@@ -29,3 +29,21 @@
 // faccio un if per vedere se la sua mail è nella lista di accesso
 // stamo un messaggio in caso lo sia o in caso non lo sia
 
+const accesso = ["marco@gmail.com", "gennaro@gmail.com", "luca@gmail.com"];
+console.log(accesso);
+
+const emailUtente = prompt("digita la tua email");
+
+// const i = []
+// for (let i = 0; i < accesso.length; i++) {
+//     if (emailUtente === i) {
+//         console.log("accesso consentito");
+
+//     }
+// }
+
+if (accesso.indexOf(emailUtente) !== -1) {
+    console.log("accesso consentito");
+} else {
+    console.log("email errata")
+}
