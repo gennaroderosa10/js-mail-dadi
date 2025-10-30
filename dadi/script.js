@@ -34,6 +34,8 @@ if (numComputer < numUtente) {
 else if (numComputer > numUtente) {
     console.log("ha vinto il Computer");
 }
-// else (numComputer === numUtente) {
-//     console.log("è un pareggio!");
-// }
+else if (numComputer === numUtente) {
+    console.log("è un pareggio!");
+
+}
+
