@@ -20,3 +20,20 @@
 // 3. si ma noi cosa vogliamo fare?
 // 4. torniamo a scrivere in italiano
 // 5. proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
+
+
+let numComputer = Math.floor(Math.random() * 6) + 1;
+console.log(numComputer);
+
+let numUtente = Math.floor(Math.random() * 6) + 1;
+console.log(numUtente);
+
+if (numComputer < numUtente) {
+    console.log("ha vinto l'utente");
+}
+else if (numComputer > numUtente) {
+    console.log("ha vinto il Computer");
+}
+// else (numComputer === numUtente) {
+//     console.log("è un pareggio!");
+// }
